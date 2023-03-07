@@ -1,0 +1,29 @@
+body{
+	margin: 30px;
+}
+.items{
+	padding: 30px;
+/*	margin: 3px;*/
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+.container{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.one{
+	grid-column: 1 / span 2;
+}
+.two{
+	grid-column: 1 / span 2;
+}
+.five{
+	grid-column: 1 / span 2;
+}
+@media screen and (max-width:600px){
+	.container{
+		display: block;
+	}
+
+}

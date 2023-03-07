@@ -1,0 +1,52 @@
+body{
+	background-image: url(../img/life.jfif);
+	/*background-color: blue;*/
+	background-repeat: no repeat;
+	background-size: cover;
+	opacity: 0.75;
+}
+#survey-form{
+	margin: 0 auto;
+	max-width: 600px;
+	height: 100%;
+	padding: 12px 40px;
+	background-color: royalblue;
+	border-radius: 5px;
+	line-height: 35px;
+	font-size: 19px;
+	font-family: sans-serif;
+	color: sandybrown;
+}
+input[type=text], input[type=email], input[type=number], select, textarea{
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+}
+#title{
+	text-align: center;
+	font-family: sans-serif;
+}
+#description{
+	text-align: center;
+	padding-bottom: 5px;
+	color: sandybrown;
+	font-weight: bolder;
+}
+input[type=submit]{
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	cursor: pointer;
+	color: white;
+	background-color: sandybrown;
+}
+.blue{
+	color: royalblue;
+}
+span{
+	color: sandybrown;
+}

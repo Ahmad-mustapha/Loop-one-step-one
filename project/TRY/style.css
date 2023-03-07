@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.apple{
+    cursor: pointer;
+    margin-right: auto;
+}
+ul{
+    list-style-type: none;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 2rem; */
+    /* margin: 1rem 12rem; */
+    /* padding: 1rem 12rem; */
+}
+li{
+    display: inline-block;
+}
+
+

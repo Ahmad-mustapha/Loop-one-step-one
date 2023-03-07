@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: #c9d8e5;
+    font-family: sans-serif;
+    font-size: 0.88rem;
+    /* display: grid;
+    place-content: center; */
+}
+.container{
+    width: 27rem;
+    height: 31rem;
+    margin: 4rem auto;
+    background-color: #fff;
+    
+}
+.header{
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    /* padding: 1rem; */
+    background-color: #6a96d8;
+    padding: 1.2rem;
+    gap: 2.5rem;
+}
+.point{
+    
+}
+#today{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 0.1rem;
+    margin: 20px 0;
+    color: #ccc;
+}
+#today span{
+    background-color: #fff;
+}
+.chats{
+    padding: 1.2rem;
+    
+}
+.arr{
+    margin-bottom: 0.5rem;
+}
+.firstmess, .thirdmess{
+    width: 69%;
+    display: flex;
+    flex-direction: column;
+}
+.firstcolor, .thirdcolor{
+    background-color: #e6edf6;
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+.seccolor{
+    background-color: #f2f2f2;
+    padding: 0.8rem;
+}
+
+.secmess, .formess{
+    width: 69%;
+    display: grid;
+    justify-content: end;
+    margin-left: 7rem;
+    /* padding: 1rem; */
+}
+p span{
+    float: right;
+}
+.thirdcolor{
+    width: 36%;
+    background-color: #e6edf6;
+    /* padding: 0.8rem; */
+    margin-bottom: 0.5rem;
+}
+.forcolor{
+    background-color: #ffc2c1;
+    padding: 0.7rem;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    margin: 0 1.5rem;
+    padding-top: .7rem;
+}
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+button{
+    border: none;
+    color: #6a96d8;
+    font-weight: 800;
+    background-color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    /* padding: 0 5rem; */
+    overflow: hidden;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.nav-bar{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25rem;
+    margin-left: 16rem;
+    padding: 2rem 0;
+}
+.apple{
+    width: 2.1rem;
+    height: 3.5rem;
+}
+.watch{
+    width: 35rem;
+    /* position: relative; */
+}
+.navs{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.navs ul{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.page1-content{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    gap: 40rem;
+}
+.freedom, .nike{
+    width: 100%;
+    margin-left: 16rem;
+    margin-top: 3rem;
+    padding: 2rem 0;
+}
+.freedom-para, .nike-para{
+    font-size: .8rem;
+    border-left: 2px solid #999;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    color: #adadad;
+}
+.key-note, .buy-now, .explore{
+    font-size: .7rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(234, 98, 92, .85);
+    padding: .7rem;
+}
+.key-note:hover{
+    background-color: rgba(234, 98, 92, 1);
+}
+.explore:hover{
+    background-color: rgba(234, 98, 92, 1);
+}
+.buy-now:hover{
+    background-color: rgba(234, 98, 92, 1);
+}
+.nav-link{
+    font-size: .83rem;
+    color: #a8a7a8;
+}
+.nav-link:hover{
+    color: #000;
+}
+input{
+    border-bottom: 1px solid #a8a7a8;
+    width: 9rem;
+    padding: .1rem;
+}
+input:focus{
+    outline: none;
+}
+.page2-contents{
+    width: 100%;
+    border-top: 1px solid #bbb;
+    overflow-x: hidden;
+}
+.content1{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    /* padding: 2rem 1rem; */
+    margin: 3rem 16rem;
+    line-height: 1.2rem;
+}
+
+.item-head{
+    font-size: .93rem;
+    font-weight: bolder;
+}
+.content1 p{
+    font-size: .75rem;
+    margin-top: 2rem;
+}
+.item3-link{
+    font-size: .7rem;
+    font-weight: bolder;
+    color: #ea625c;
+}
+.dots{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.dots span{
+    width: .25rem;
+    height: .25rem;
+    background: rgba(0, 0, 0, .2);
+    margin-top: 1rem;
+}
+.nike-image{
+    width: 22rem;
+    height: 30rem;
+}
+.content2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7rem;
+}
+
+.health-para{
+    font-size: .8rem;
+    border-left: 2px solid #fff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    color: #fff;   
+}
+.page3-contents{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/runners.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+.content-para{
+    color: #fff;
+}
+.content-para{
+    position: relative;
+    top: 30%;
+    left: 54%;
+}

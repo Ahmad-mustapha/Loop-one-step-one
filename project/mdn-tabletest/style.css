@@ -1,0 +1,44 @@
+
+body{
+	box-sizing: border-box;
+}
+table,th,td{
+	box-sizing: border-box;
+}
+table{
+	border-collapse: collapse;
+}
+th,td{
+	padding: 10px 20px;
+}
+div{
+	border: 1px solid darkgrey;
+	border-radius: 10px 10px 5px 5px ;
+	padding: 10px 6px 6px 8px;
+}
+th,td {
+	align-items: ceneter;
+	vertical-align: justify-all;
+	justify-content: center;
+	text-align: center;
+}
+/*
+.mass{
+	padding: 10px 35px;
+}
+*/
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+th{
+	background-color: lightgrey;
+}
+tr:nth-child(1){
+	background-color: #f2f2f2;
+}
+/* I am not able to use id attribute here
+.empty{
+	background-color: blue;
+}
+*/

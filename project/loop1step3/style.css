@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #16a085;
+    font-family: sans-serif;
+}
+.items{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    justify-content: space-around;
+    align-content: space-around;
+    grid-gap: 2rem ;
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 13.5rem;
+    margin-bottom: 1rem;
+}
+.container{
+    width: 38rem;
+    height: 33rem;
+    background-color: #ffffff;
+    margin: 2rem auto;
+    padding: 3.5rem 3.4rem;
+    overflow: hidden;
+}
+.contact{
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+.contact:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #ccc;
+    padding: 0.5rem;
+}
+#para{
+    display: flex;
+    align-items: center;
+    
+}
+#para p{
+    margin-bottom: 2rem;
+    color: #acb7c4;
+    font-size: 0.9rem;
+    
+}
+.num{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.arr{
+    width: 38rem;
+    margin:0 auto;
+    position: relative;
+    top: -3.5rem;
+    
+}
+.bicycle{ 
+    height: 27rem;
+    width: 31rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* .bicycle{
+    height: expresssion(this.scrollHeight<23rem?"auto":"23rem");
+    overflow: hidden;
+} */
+.word{
+    color: #5c5c5c;
+}
